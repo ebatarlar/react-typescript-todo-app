@@ -1,46 +1,91 @@
-# Getting Started with Create React App
+# Taskify - TypeScript Todo Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Todo List application built with React and TypeScript. This project was created as part of my learning journey to understand TypeScript with React, following modern best practices and implementing state management using React hooks.
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+This project demonstrates my ability to:
+- Work with TypeScript in a React application
+- Implement CRUD operations (Create, Read, Update, Delete)
+- Manage application state using React's useReducer hook
+- Handle form submissions and user interactions
+- Style components using CSS
+- Write clean, maintainable code
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- ✏️ Add new tasks
+- 🗑️ Delete tasks
+- ✅ Mark tasks as complete
+- 📝 Edit existing tasks
+- 💾 State management with useReducer
+- 🎨 Responsive design
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **React**: Frontend library
+- **TypeScript**: Static typing
+- **CSS**: Styling
+- **React Icons**: Icon library
+- **Git**: Version control
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Development Setup
 
-### `npm run build`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install dependencies:
+   ```bash
+   cd YOUR-REPOSITORY-NAME
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Structure
 
-### `npm run eject`
+```
+src/
+├── components/
+│   ├── InputField.tsx  # Input component for adding new todos
+│   ├── SingleTodo.tsx  # Individual todo item component
+│   ├── TodoList.tsx    # Container for todo items
+│   ├── model.ts        # TypeScript interfaces and types
+│   └── todoReducer.ts      # State management logic
+├── App.tsx             # Main application component
+└── styles.css          # Styling
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Learning Outcomes
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Through this project, I gained experience in:
+- TypeScript fundamentals and type safety
+- React Hooks (useState, useReducer, useRef)
+- Component composition
+- Form handling
+- State management
+- CSS styling
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Acknowledgments
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This project was built following a tutorial by Roadside Coder on YouTube, with additional features and modifications added by me. It helped me understand TypeScript integration with React and modern state management practices.
 
-## Learn More
+## Future Improvements
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Potential enhancements I plan to add:
+- Local storage integration
+- Drag and drop functionality
+- Categories for tasks
+- Due dates for tasks
+- Search and filter functionality
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contact
+
+[Emre Batarlar] - [ebatarlar@gmail.com]
+
+Project Link: [https://github.com/ebatarlar/react-typescript-todo-app.git](https://github.com/ebatarlar/react-typescript-todo-app.git)
