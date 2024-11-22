@@ -33,7 +33,7 @@ This project demonstrates my ability to:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
+   git clone https://github.com/ebatarlar/react-typescript-todo-app.git
    ```
 
 2. Install dependencies:
