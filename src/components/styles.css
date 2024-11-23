@@ -141,7 +141,7 @@
     flex-direction: column;
   }
   .todos {
-    width: 95%;
+    width: 90%;
     margin-bottom: 10px;
   }
 }
